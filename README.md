@@ -1,12 +1,13 @@
-# Proyecto_SegundoParcial
 # Proyecto Segundo Parcial - Estructuras de Datos y Ordenamiento en C++
 
 ## Descripción
-Este proyecto contiene la implementación de diferentes **algoritmos de ordenamiento** y **estructuras de datos**, desarrollados en **C++ utilizando Programación Orientada a Objetos (POO)**.
+Este proyecto contiene la implementación de diferentes algoritmos de ordenamiento, estructuras de datos y programas adicionales, desarrollados en C++ utilizando Programación Orientada a Objetos (POO).
 
 Se trabajó con:
-  Datos básicos (int, string, etc.)
-  Nuevo tipo de dato (`Persona`)
+- Datos básicos (int, string, etc.)
+- Nuevo tipo de dato (`Persona`, `Auto`)
+- Uso de punteros
+- Buenas prácticas de programación
 
 ---
 
@@ -61,41 +62,67 @@ Se trabajó con:
 
 ---
 
+### Programas Adicionales
+
+#### Gestión de Autos y Propietarios
+- Uso de una clase `Auto` con datos del vehículo y del propietario
+- Manejo de arreglos y punteros
+- Permite:
+  - Registrar información de múltiples personas
+  - Mostrar datos completos del auto y propietario
+
+#### Cálculo de Promedio
+- Uso de arreglos y punteros
+- Permite:
+  - Ingresar números
+  - Calcular suma, promedio, máximo y mínimo
+- Refuerza el manejo de memoria y operaciones básicas
+
+---
+
 ## Uso de Programación Orientada a Objetos
 
-En todos los programas se aplicaron conceptos de POO:
+En todos los programas se aplicaron:
 
-  Clases
-  Encapsulamiento
-  Polimorfismo
-  Herencia
-  Uso de un nuevo tipo de dato (`Persona`)
-  Clases abstractas y clases concretas (en algoritmos de ordenamiento)
+- Clases
+- Encapsulamiento
+- Polimorfismo
+- Herencia
+- Uso de nuevos tipos de datos (`Persona`, `Auto`)
+- Clases abstractas y clases concretas
 
 ---
 
 ## Principios SOLID aplicados
 
-- **S (Single Responsibility Principle)**  
-  Cada clase tiene una única responsabilidad (ej. una clase para ordenar, otra para datos).
+- S (Single Responsibility Principle)  
+  Cada clase tiene una única responsabilidad.
 
-- **O (Open/Closed Principle)**  
-  Se pueden agregar nuevos algoritmos sin modificar el código existente.
+- O (Open/Closed Principle)  
+  El código es extensible sin modificar su estructura base.
 
-- **L (Liskov Substitution Principle)**  
-  Las clases concretas pueden sustituir a la clase abstracta sin afectar el programa.
+- L (Liskov Substitution Principle)  
+  Las clases derivadas pueden sustituir a la clase base.
 
-- **I (Interface Segregation Principle)**  
-  Se usan interfaces/clases abstractas con métodos específicos y necesarios.
+- I (Interface Segregation Principle)  
+  Se utilizan interfaces/clases abstractas específicas.
 
-- **D (Dependency Inversion Principle)**  
-  El programa depende de abstracciones (`Clase_abstracta`) y no de implementaciones concretas.
+- D (Dependency Inversion Principle)  
+  Se trabaja con abstracciones en lugar de implementaciones directas.
 
+---
 
-## Colaboradores:
+## Cómo ejecutar Usando Dev-C++
 
-  Guerrero Hernández Eduardo
-  Garcia Pamatz Gabriel
-  Muñoz Sanchez Emilio
-  Olivera Chavez Valeria
+- Abrir el archivo `main.cpp` de cualquier carpeta
+- Presionar F11 para compilar
+- Presionar F10 para ejecutar
 
+---
+
+## Colaboradores
+
+- Guerrero Hernández Eduardo  
+- Garcia Pamatz Gabriel  
+- Muñoz Sanchez Emilio  
+- Olivera Chavez Valeria  
