@@ -114,7 +114,7 @@ En todos los programas se aplicaron:
 
 ## Cómo ejecutar Usando Dev-C++
 
-- Abrir el archivo `main.cpp` de cualquier carpeta
+- Abrir el archivo `.dev` de cualquier carpeta
 - Presionar F11 para compilar
 - Presionar F10 para ejecutar
 
